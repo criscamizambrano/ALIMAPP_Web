@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:white;
+    height: 100%;
+}
+header{
+    width: 100%;
+}
+.logo{
+    text-align: center;
+}
+header nav{
+    width:98%;
+    margin:20px auto;
+    border-radius: 15px;
+    background: #1A941B;
+}
+.menu_bar{
+    display:none;
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    color :white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+header nav ul li span{
+    margin-right: 10px;
+}
+header nav ul li a:hover{
+    background: #FE9E13;
+    color:black;
+    
+}
+#btn_inicio:hover{
+    background: #FE9E13;
+    color:black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#btn_iniciar_sesion{
+    position: absolute;
+    right:11px;
+}
+#btn_iniciar_sesion:hover{
+    background: #FE9E13;
+    color:black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+section{
+    padding: 20px;
+}
+.container{
+    min-height: 100vh;
+}
+/*
+@media screen and (max-width: 800px){
+    header nav{
+        width: 80%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+    .logo{
+        display: none;
+    }
+    header nav ul li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 3);
+    }
+    .menu_bar{
+        display: block;
+        width: 80%;
+        background: white;
+        
+    }
+    .menu_bar .bt-menu{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: block;
+        padding: 20px;
+        background: #1A941B;
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size:25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .menu_bar span{
+        float: left;
+        font-size: 27px;
+    }
+    
+}
+*/
+
+#footer{
+    background:#1A941B;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+#footer{text-align:center;font:12px/18px DINPro-Bold,Arial,Verdana,sans-serif;font-weight:400;font-style:normal;color:white;padding:20px 0;}
+#footer span{font-size:12px;margin:0 20px;}
+#footer a{font:12px/24px DINPro-Bold,Arial,Verdana,sans-serif;font-weight:400;color:#fff;}
+#footer a.social{display:inline-block;margin:0 20px;}

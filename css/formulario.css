@@ -1,0 +1,44 @@
+@media all{
+    *{box-sizing:border-box;}
+    h3{line-height:1em;}
+    a{color:#0085b6;text-decoration:none;outline:none;border:none;}
+    a:hover,a:active,a:focus{color:#00729d;}
+    h1{font-size:49px;line-height:1em;}
+    @media (max-width: 679px){
+    h1{font-size:36px;line-height:2.5rem;}
+    }
+    fieldset{border:none;margin:0;padding:0;}
+    input:disabled{background-color:#eeeeee;}
+    .user-form{background:white;border:1px solid #e1e8ed;text-align:center;padding:40px;margin:0 auto;max-width:520px;}
+    @media (max-width: 679px){
+    .user-form{padding:20px 10px;}
+    }
+    h1.user-form__title{text-align:center;font-family:"Helvetica Neue";font-size:24px;font-weight:bold;line-height:29px;color:#444444;}
+    .user-form__info{font-size:13px;line-height:17px;color:#7d7d7d;}
+    .user-form__form{margin-top:30px;}
+    .user-form__fieldset{display:block;margin:0 auto 20px;}
+    @media (min-width: 680px){
+    .user-form__fieldset{width:80%;}
+    }
+    .sign-in__two-factor-auth{display:none;}
+    .user-form__label{display:block;font-size:14px;text-align:left;}
+    .user-form__field{display:block;width:100%;padding:10px;font:normal 14px Arial, sans-serif;margin:0 auto;border:1px solid #c1d0d9;border-radius:6px;box-shadow:inset 0px 1px 2px rgba(102,102,102,0.1);background-color:#fefefe;}
+    .user-form__field::-webkit-input-placeholder{color:rgba(167,178,185,0.4);}
+    .user-form__field:-moz-placeholder{color:rgba(167,178,185,0.4);}
+    .user-form__field::-moz-placeholder{color:rgba(167,178,185,0.4);}
+    .user-form__field:-ms-input-placeholder{color:rgba(167,178,185,0.4);}
+    .user-form__field:focus{outline:none;background-color:white;box-shadow:0 0 5px #c1d0de;}
+    .user-form__button{margin-top:20px;margin-bottom:20px;-webkit-font-smoothing:antialiased!important;border:none;cursor:pointer;padding:10px 16px;white-space:nowrap;width:320px;height:45px;background-color:#81b536;background-image:none;box-shadow:0 2px 0 0 #709a3c;border-radius:4px;font-family:"Helvetica Neue", Arial, sans-serif;font-size:16px;line-height:18px;color:white;}
+    .user-form__button:hover,.user-form__button:focus{background-color:#8fc050;}
+    .user-form__button:active{background-color:#75a23a;}
+    #button-eliminar{margin-top:20px;margin-bottom:20px;-webkit-font-smoothing:antialiased!important;border:none;cursor:pointer;padding:10px 16px;white-space:nowrap;width:320px;height:45px;background-color:#d34137;background-image:none;box-shadow:0 2px 0 0 #ff1100;border-radius:4px;font-family:"Helvetica Neue", Arial, sans-serif;font-size:16px;line-height:18px;color:white;}
+    #button-eliminar:hover,.user-form__button:focus{background-color:#ca391f;}
+    #button-descargar:active{background-color:#7ee00e;}
+    #button-descargar{margin-top:20px;margin-bottom:20px;-webkit-font-smoothing:antialiased!important;border:none;cursor:pointer;padding:10px 16px;white-space:nowrap;width:320px;height:45px;background-color:#7eb834;background-image:none;box-shadow:0 2px 0 0 #129e12;border-radius:4px;font-family:"Helvetica Neue", Arial, sans-serif;font-size:16px;line-height:18px;color:white;}
+    #button-descargar:hover,.user-form__button:focus{background-color:#1fca27;}
+    #button-descargar:active{background-color:#a6ff00;}
+    .user-form__premium-help{background:#dfe5e8;padding:10px 20px;margin-top:20px;font-size:12px;}
+    .user-form__premium-help-heading{font-size:14px;text-align:center;}
+    .user-form__recaptcha--hidden,.user-form__premium-help--hidden{display:none;}
+    .hidden{display:none;}
+    }
